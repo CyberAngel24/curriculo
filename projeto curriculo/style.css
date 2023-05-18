@@ -1,0 +1,65 @@
+.container{
+    background-color: black;
+    border:5px solid black;
+    padding:15px;
+    display:grid;
+    gap:10px;
+    grid-template-areas: 
+    'header header header header header'
+    'menu menu menu menu menu'
+    'content content content content content'
+    'footer footer footer footer footer'
+}
+
+#header{
+    grid-area:header;
+    text-align: center;
+    padding:15px;
+    
+}
+
+#menu{
+    grid-area:menu;
+    text-align: center;
+    padding: 3px;
+    
+
+}
+
+#content{
+    grid-area:content;
+    height: 100vh;
+}
+
+#footer{
+    grid-area: footer;
+   
+}
+
+.container div{
+    background-color: white;
+    padding:50px;
+    
+    
+}
+ body{
+    background-color: black;
+    font-family: 'Press Start 2P', cursive;
+    
+ }
+
+ .conteudo-menu{
+display: inline-flex;
+
+ }
+
+ img{
+    height: 150px;
+    width:150px;
+ }
+
+ span{
+    color:gray;
+ }
+
+ 
